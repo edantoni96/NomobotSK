@@ -14,7 +14,7 @@ NomobotSK is a educational robot for kids to learn programming and robotics.
 
 ## SCHEMATIC
 
-![Alt text](https://github.com/edantoni96/NomobotSK/blob/main/docs/schematic.pdf)
+[embed]https://github.com/edantoni96/NomobotSK/blob/main/docs/schematic.pdf[embed]
 
 ## TESTER
 
