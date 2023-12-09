@@ -1,0 +1,131 @@
+****PIN CONFIGURATION****
+
+D1; Trig / Servo R
+D2; Button 2
+D3; Button 3
+D4; DIR2 (-)
+D5; DIR2 (+)
+D6; DIR1 (-)
+D7; DIR1 (+)
+D8; LED / Line L
+D0; BUZZ / Line R
+
+Note: / symbol means each of the function need to be tested or used separately.
+
+****TEST Command****
+
+1. TEST_LED
+2. TEST_BUZ
+3. TEST_BUTTON
+4. TEST_M1
+5. TEST_M2
+6. TEST_ULRA
+7. TEST_LINE
+
+
+****Test Instruction****
+
+1. Open Test.ino with Arduino.
+2. Compile Test.ino.
+3. Connect your NodeMCU to your computer using a USB cable.
+4. Select the appropriate board and port in the Arduino IDE.
+5. Upload the compiled code to the NodeMCU by clicking the "Upload" button.
+6. Once the upload is complete, open the Serial Monitor in the Arduino IDE.
+7. TEST_LED
+	- Switch on Led Pin
+	- Type "TEST_LED" in the Serial Monitor and press Enter.
+	- Verify that the LED connected to pin D8 (Line L) turns on.
+8. TEST_BUZ
+	- Switch on Buz Pin
+	- Type "TEST_BUZ" in the Serial Monitor and press Enter.
+	- Confirm that the buzzer connected to pin D0 (Line R) produces a sound.
+9. TEST_BUTTON
+	- Switch on Button A and B Pins
+	- Type "TEST_BUTTON" in the Serial Monitor and press Enter.
+	- Press Button 2 (connected to pin D2) and Button 3 (connected to pin D3) one by one.
+	- Observe in the Serial Monitor that the corresponding button presses are detected.
+10. TEST_M1
+	- Switch on M1 pins
+	- Type "TEST_M1" in the Serial Monitor and press Enter.
+	- Confirm that the motor (M1) responds accordingly based on the DIR1 (-) and DIR1 (+) 		signals on pins D6 and D7.
+11. TEST_M2
+	- Switch on M2 Pins
+	- Type "TEST_M2" in the Serial Monitor and press Enter.
+	- Confirm that the motor (M2) responds accordingly based on the DIR2 (-) and DIR2 (+) 		signals on pins D4 and D5.
+12. TEST_ULRA
+	- Switch on Echo and Trig Pins
+	- Type "TEST_ULRA" in the Serial Monitor and press Enter.
+	- If an ultrasonic sensor is connected, check the Serial Monitor for the distance 		readings.
+13. TEST_LINE
+	- Switch on Lin Pins
+	- Type "TEST_LINE" in the Serial Monitor and press Enter.
+	- Observe the behavior of the line sensors connected to pins D8 (Line L) and D0 (Line 		R).
+	- Verify that the sensor readings are reflected in the Serial Monitor.
+	
+Note: Ensure that you have the necessary libraries, dependencies, and hardware connections set up correctly for each test. Adjust the pin configurations and commands as needed based on your actual hardware setup.
+
+
+****KONFIGURASI PIN****
+
+D1; Trig / Servo R
+D2; Tombol 2
+D3; Tombol 3
+D4; DIR2 (-)
+D5; DIR2 (+)
+D6; DIR1 (-)
+D7; DIR1 (+)
+D8; LED / Garis L
+D0; BUZZ / Garis R
+
+Catatan: Simbol / berarti setiap fungsi perlu diuji atau digunakan secara terpisah.
+
+****Perintah PENGUJIAN****
+
+1. TEST_LED
+2. TEST_BUZ
+3. TEST_BUTTON
+4. TEST_M1
+5. TEST_M2
+6. TEST_ULRA
+7. TEST_LINE
+
+****Instruksi Uji****
+
+1. Buka Test.ino dengan Arduino.
+2. compile Test.ino.
+3. Hubungkan NodeMCU Anda ke komputer menggunakan kabel USB.
+4. Pilih board dan port yang sesuai di Arduino IDE.
+5. Unggah kode yang telah dikompilasi ke NodeMCU dengan mengklik tombol "Unggah".
+6. Setelah pengunggahan selesai, buka Serial Monitor di Arduino IDE.
+7. TEST_LED
+	- Nyalakan pin LED
+	- Ketik "TEST_LED" di Serial Monitor dan tekan Enter.
+	- Pastikan bahwa LED yang terhubung ke pin D8 (Garis L) menyala.
+8. TEST_BUZ
+	- Nyalakan pin Buz
+	- Ketik "TEST_BUZ" di Serial Monitor dan tekan Enter.
+	- Konfirmasikan bahwa buzzer yang terhubung ke pin D0 (Garis R) menghasilkan suara.
+9. TEST_BUTTON
+	- Nyalakan Tombol A dan Tombol B
+	- Ketik "TEST_BUTTON" di Serial Monitor dan tekan Enter.
+	- Tekan Tombol 2 (terhubung ke pin D2) dan Tombol 3 (terhubung ke pin D3) satu per 		satu.
+	- Amati di Serial Monitor bahwa tekanan tombol yang sesuai terdeteksi.
+10. TEST_M1
+	- Nyalakan pin M1
+	- Ketik "TEST_M1" di Serial Monitor dan tekan Enter.
+	- Pastikan bahwa motor (M1) merespons sesuai dengan sinyal DIR1 (-) dan DIR1 (+) pada 		pin D6 dan D7.
+11. TEST_M2
+	- Nyalakan pin M2
+	- Ketik "TEST_M2" di Serial Monitor dan tekan Enter.
+	- Pastikan bahwa motor (M2) merespons sesuai dengan sinyal DIR2 (-) dan DIR2 (+) pada 		pin D4 dan D5.
+12. TEST_ULRA
+	- Nyalakan pin Echo dan Trig
+	- Ketik "TEST_ULRA" di Serial Monitor dan tekan Enter.
+	- Jika sensor ultrasonik terhubung, periksa Serial Monitor untuk pembacaan jarak.
+13. TEST_LINE
+	- Nyalakan pin Garis
+	- Ketik "TEST_LINE" di Serial Monitor dan tekan Enter.
+	- Amati perilaku sensor garis yang terhubung ke pin D8 (Garis L) dan D0 (Garis R).
+	- Pastikan pembacaan sensor tercermin di Serial Monitor.
+
+Catatan: Pastikan Anda memiliki library, dependensi, dan koneksi perangkat keras yang diperlukan dengan benar untuk setiap uji. Sesuaikan konfigurasi pin dan perintah sesuai dengan pengaturan perangkat keras sebenarnya Anda.
