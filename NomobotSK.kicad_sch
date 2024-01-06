@@ -2575,6 +2575,9 @@
   (junction (at 67.31 33.02) (diameter 0) (color 0 0 0 0)
     (uuid 43044d1a-82f8-46e4-b839-f93810a64e38)
   )
+  (junction (at 91.44 198.12) (diameter 0) (color 0 0 0 0)
+    (uuid 457d6c77-4191-4e7b-8b7a-7a863f050b7c)
+  )
   (junction (at 67.31 50.8) (diameter 0) (color 0 0 0 0)
     (uuid 46603c1f-d177-4b63-a804-fa0ce792abc4)
   )
@@ -2592,6 +2595,9 @@
   )
   (junction (at 212.09 229.87) (diameter 0) (color 0 0 0 0)
     (uuid 5a389e4e-3baf-4235-92e6-bb768bb6c4c5)
+  )
+  (junction (at 101.6 195.58) (diameter 0) (color 0 0 0 0)
+    (uuid 6572f5f8-9a1a-456e-a596-31c2caca2c62)
   )
   (junction (at 133.35 245.11) (diameter 0) (color 0 0 0 0)
     (uuid 6792b155-9eef-4163-9d15-0b5ab92a9d35)
@@ -2786,7 +2792,7 @@
     (stroke (width 0) (type default))
     (uuid 0c1722f9-9763-4c82-a9cf-b58b810260e6)
   )
-  (wire (pts (xy 124.46 200.66) (xy 119.38 200.66))
+  (wire (pts (xy 124.46 200.66) (xy 120.65 200.66))
     (stroke (width 0) (type default))
     (uuid 0c4c82fc-71a3-47af-b7ec-b842cbf81933)
   )
@@ -2909,6 +2915,10 @@
   (wire (pts (xy 44.45 50.8) (xy 44.45 53.34))
     (stroke (width 0) (type default))
     (uuid 23af2e44-be7c-4bba-b570-b7e6241387a9)
+  )
+  (wire (pts (xy 101.6 187.96) (xy 101.6 185.42))
+    (stroke (width 0) (type default))
+    (uuid 25ad6c82-2494-4232-81eb-46c703c28f9c)
   )
   (wire (pts (xy 160.02 129.54) (xy 160.02 128.27))
     (stroke (width 0) (type default))
@@ -3130,6 +3140,10 @@
     (stroke (width 0) (type default))
     (uuid 573ea117-b5ec-4404-bfcd-85a6d0ed5193)
   )
+  (wire (pts (xy 101.6 185.42) (xy 102.87 185.42))
+    (stroke (width 0) (type default))
+    (uuid 5b26a42a-ade3-46f7-8a87-8f20bf010daa)
+  )
   (wire (pts (xy 297.18 44.45) (xy 299.72 44.45))
     (stroke (width 0) (type default))
     (uuid 5bdc411f-caa2-49a5-b894-e020d087841c)
@@ -3194,6 +3208,10 @@
     (stroke (width 0) (type default))
     (uuid 6becce16-8a52-4627-8620-4ca9b3b366a2)
   )
+  (wire (pts (xy 101.6 195.58) (xy 104.14 195.58))
+    (stroke (width 0) (type default))
+    (uuid 6ceaa413-7db9-445c-b2c0-2f099d303919)
+  )
   (wire (pts (xy 71.12 33.02) (xy 67.31 33.02))
     (stroke (width 0) (type default))
     (uuid 6db4d631-5d41-43a5-aefe-bae73b8cba22)
@@ -3245,6 +3263,10 @@
   (wire (pts (xy 133.35 212.09) (xy 133.35 215.9))
     (stroke (width 0) (type default))
     (uuid 792a41f0-20c4-4aed-8c75-60a3d8ab8c87)
+  )
+  (wire (pts (xy 91.44 198.12) (xy 104.14 198.12))
+    (stroke (width 0) (type default))
+    (uuid 7a0f8bb2-6a0e-452f-9f26-1096d107c095)
   )
   (wire (pts (xy 191.77 256.54) (xy 203.2 256.54))
     (stroke (width 0) (type default))
@@ -3542,6 +3564,10 @@
     (stroke (width 0) (type default))
     (uuid b11ce544-1cc8-467e-8a78-6ea076cefda2)
   )
+  (wire (pts (xy 91.44 205.74) (xy 95.25 205.74))
+    (stroke (width 0) (type default))
+    (uuid b23e8198-9be8-48f6-bf91-78b1f8bc597a)
+  )
   (wire (pts (xy 350.52 100.33) (xy 363.22 100.33))
     (stroke (width 0) (type default))
     (uuid b275cad5-bb28-4694-9ada-731d0aa4eaa4)
@@ -3770,7 +3796,7 @@
     (stroke (width 0) (type default))
     (uuid de95923d-6747-4ef9-b6da-f2cbb121d3b3)
   )
-  (wire (pts (xy 87.63 195.58) (xy 90.17 195.58))
+  (wire (pts (xy 87.63 195.58) (xy 101.6 195.58))
     (stroke (width 0) (type default))
     (uuid ded7a136-dbd5-4ccb-8e89-6661d13a7e8f)
   )
@@ -3995,6 +4021,13 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
+  (global_label "3V3" (shape input) (at 102.87 185.42 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 1c40cece-a173-4aec-b1d2-714cf0944fe2)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 109.3628 185.42 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
   (global_label "BUZZ" (shape input) (at 133.35 152.4 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 1d571d3c-cd78-44c0-a469-536e524248f4)
@@ -4030,10 +4063,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "LIN_L" (shape input) (at 90.17 195.58 0) (fields_autoplaced)
+  (global_label "LIN_L" (shape input) (at 104.14 195.58 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 270e040a-c49b-49e1-9d13-1797727d988b)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 98.1143 195.58 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 112.0843 195.58 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -4226,10 +4259,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "LIN_R" (shape input) (at 91.44 198.12 0) (fields_autoplaced)
+  (global_label "LIN_R" (shape input) (at 104.14 198.12 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 5f99a0ac-fce4-409a-8603-225863af7263)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 99.6262 198.12 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 112.3262 198.12 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -4331,10 +4364,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "LIN_L" (shape input) (at 119.38 200.66 180) (fields_autoplaced)
+  (global_label "LIN_L" (shape input) (at 120.65 200.66 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 789276de-1879-43eb-bdeb-7d238afa6525)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 111.4357 200.66 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 112.7057 200.66 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -4398,6 +4431,13 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 8b1b764e-9726-422f-8de4-251ddf5a606f)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 119.606 38.1 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "3V3" (shape input) (at 95.25 205.74 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 8b65aead-0f03-44bb-8259-95a8b990140c)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 101.7428 205.74 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -4685,7 +4725,7 @@
     )
     (pin "1" (uuid ca87ba7c-bdca-4493-84b6-62db535c7618))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "#PWR013") (unit 1)
         )
@@ -4752,7 +4792,7 @@
     (pin "COLL" (uuid 13d3adc4-0c45-42ad-a269-496491fb46bb))
     (pin "E" (uuid ce479914-aad8-4cb7-8eaf-1bdd24e6fe66))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "U4") (unit 1)
         )
@@ -4778,7 +4818,7 @@
     (pin "2" (uuid f5fcf798-bc50-4909-9bb5-9a9794af5a58))
     (pin "1" (uuid d2ff5fee-df8e-48f8-97d8-00c7c891b54f))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "M2") (unit 1)
         )
@@ -4803,7 +4843,7 @@
     )
     (pin "1" (uuid 21f372b0-649f-402c-91f3-594f33863561))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "TP6") (unit 1)
         )
@@ -4829,7 +4869,7 @@
     (pin "1" (uuid ecd72830-4d80-424b-99d6-ea8aca0538ff))
     (pin "2" (uuid e735d9ce-c82d-4c82-8ef4-911f091dd1c3))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "SW1") (unit 1)
         )
@@ -4854,7 +4894,7 @@
     )
     (pin "1" (uuid 4bf03fd2-8366-4997-803a-c058705a627e))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "TP5") (unit 1)
         )
@@ -4868,7 +4908,7 @@
     (property "Reference" "R10" (at 158.75 204.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1K" (at 161.29 207.01 0)
+    (property "Value" "330R" (at 161.29 207.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 159.004 199.644 90)
@@ -4880,7 +4920,7 @@
     (pin "1" (uuid d3c6915e-fe32-4ba1-aa08-9242f4932aad))
     (pin "2" (uuid ee5fad82-e7de-4c53-84b9-86aeccb985e2))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "R10") (unit 1)
         )
@@ -4906,7 +4946,7 @@
     (pin "1" (uuid 34db4ff2-cd9e-435f-900e-f6e73bffe6a5))
     (pin "2" (uuid 2ab9b709-b79e-4216-95d9-1b4b5a82a224))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "R5") (unit 1)
         )
@@ -4942,7 +4982,7 @@
     (pin "9" (uuid 9e1db60a-1f27-4987-8997-3129d72f0fb6))
     (pin "6" (uuid 745e221e-27c8-449b-8f7d-d2a245443499))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "J1") (unit 1)
         )
@@ -4969,7 +5009,7 @@
     (pin "2" (uuid 0bdf9325-f326-45c9-b147-9e20a613dd02))
     (pin "3" (uuid ec82337b-5d3c-4a2b-9e99-89b057285a0e))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "RV1") (unit 1)
         )
@@ -4994,7 +5034,7 @@
     )
     (pin "1" (uuid 6dc6b693-9732-4dc9-9c89-c9714b560e2d))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "#PWR015") (unit 1)
         )
@@ -5021,7 +5061,7 @@
     (pin "1" (uuid d820813f-aba2-4cc7-876a-b361d71b4956))
     (pin "3" (uuid 319c9e2e-4e5e-4f2b-824c-191146074486))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "J3") (unit 1)
         )
@@ -5047,7 +5087,7 @@
     (pin "1" (uuid 5d5c4b85-2a98-476d-81ea-96ef00ef0942))
     (pin "2" (uuid 4a0e5ef6-6191-4ce8-83de-a63cf66e3ecf))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "SW2") (unit 1)
         )
@@ -5072,7 +5112,7 @@
     )
     (pin "1" (uuid 4e0560df-ebd1-49d3-bba8-e39ac185960b))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "TP7") (unit 1)
         )
@@ -5098,7 +5138,7 @@
     (pin "2" (uuid 7213ac42-96b9-4edb-b5ab-da008c5f800c))
     (pin "1" (uuid 8be10558-ac17-4409-b159-817849f6371e))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "D17") (unit 1)
         )
@@ -5123,7 +5163,7 @@
     )
     (pin "1" (uuid fcfdc688-3ad2-4519-a8f7-2ebfb0c316d4))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "#PWR02") (unit 1)
         )
@@ -5148,7 +5188,7 @@
     )
     (pin "1" (uuid 5d6a88fa-5e3c-43ab-b351-ac7de3aff5ee))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "#PWR05") (unit 1)
         )
@@ -5176,7 +5216,7 @@
     (pin "2" (uuid 4c7333de-d49f-43a8-979f-3bb81be78611))
     (pin "4" (uuid a449651c-3d74-4180-bd5f-d23f17eec96d))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "D13") (unit 1)
         )
@@ -5212,9 +5252,35 @@
     (pin "9" (uuid 6522c8e7-4b8c-4d64-a12b-736adf161b30))
     (pin "6" (uuid 6dff6b01-bbc8-41d6-bc6e-1d01d976d6a3))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "J6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 101.6 191.77 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 32140931-887a-4b74-b1c5-6ddb5a1f20e3)
+    (property "Reference" "R13" (at 105.41 191.77 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1K" (at 107.95 189.23 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 100.584 191.516 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 101.6 191.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 028db2d6-c8fe-4905-b526-137c30c9fcdd))
+    (pin "2" (uuid af718ee7-52dd-489e-b5f5-439877142fb6))
+    (instances
+      (project "NomobotSK"
+        (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -5237,7 +5303,7 @@
     )
     (pin "1" (uuid 4e627149-9370-4648-8896-a2c8832ef620))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "#PWR010") (unit 1)
         )
@@ -5265,7 +5331,7 @@
     (pin "2" (uuid 9f50400f-946e-4f13-868e-b20dabb087ff))
     (pin "4" (uuid 832ee239-30ac-49d5-8236-be2751556db7))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "D11") (unit 1)
         )
@@ -5291,7 +5357,7 @@
     (pin "1" (uuid 09b69eaa-f833-47a4-b507-cffda6334b27))
     (pin "2" (uuid 22bdf204-25cc-4892-bf82-e60cb25bbee5))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "R9") (unit 1)
         )
@@ -5317,7 +5383,7 @@
     (pin "2" (uuid a1d4a4a1-0faa-4b5d-9faf-4d53cf21ca95))
     (pin "1" (uuid f2f7d1d5-c60a-4627-9eed-14cf852f3ebd))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "D18") (unit 1)
         )
@@ -5345,7 +5411,7 @@
     (pin "2" (uuid 9fbf59a9-0f12-4793-84ab-88b3e4e336d1))
     (pin "4" (uuid d9e2fd8e-cbb2-4e90-9f4b-cfe4927042e9))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "D9") (unit 1)
         )
@@ -5371,7 +5437,7 @@
     (pin "1" (uuid 77da22df-8845-47ca-aaaa-5a9cb7428d92))
     (pin "2" (uuid 6c47777a-36be-4931-a81f-bad434cf45f9))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "R2") (unit 1)
         )
@@ -5461,7 +5527,7 @@
     (pin "J1_1" (uuid 93a12d3c-b921-4953-82b9-361579eef405))
     (pin "J1_13" (uuid c6a2c964-2495-48aa-9810-4183b9add96a))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "A1") (unit 1)
         )
@@ -5487,7 +5553,7 @@
     (pin "2" (uuid e93ea615-c29b-4580-b56b-5cb18798ee7f))
     (pin "1" (uuid e80c70b9-1ec5-4b4f-b3ad-b568f164c035))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "R1") (unit 1)
         )
@@ -5512,7 +5578,7 @@
     )
     (pin "1" (uuid 37b7e8ee-197d-4d75-af56-d0d173c8031a))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "TP3") (unit 1)
         )
@@ -5537,7 +5603,7 @@
     )
     (pin "1" (uuid c7925725-0f3d-45b9-bcb2-943f6136d0dd))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "#PWR03") (unit 1)
         )
@@ -5562,7 +5628,7 @@
     )
     (pin "1" (uuid 31dda6f8-e0f6-452f-a215-c7f9e102facc))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "#PWR04") (unit 1)
         )
@@ -5587,7 +5653,7 @@
     )
     (pin "1" (uuid 9eb4b28f-5d00-4e1d-b35d-827c645665f9))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "#PWR011") (unit 1)
         )
@@ -5614,7 +5680,7 @@
     (pin "2" (uuid b7678898-65df-473a-b017-c3a27a6c9fbc))
     (pin "3" (uuid 41a7bb01-d35f-45cb-a3ac-11c2231c83bb))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "U6") (unit 1)
         )
@@ -5640,7 +5706,7 @@
     (pin "1" (uuid 51b35df4-d176-4417-a153-1fbf2a9d025b))
     (pin "2" (uuid c5b6a6ec-8c3c-4d78-ada8-f491bb919ac9))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "C7") (unit 1)
         )
@@ -5676,7 +5742,7 @@
     (pin "9" (uuid b5a33613-87a4-44da-9fbc-d561cf69564e))
     (pin "6" (uuid 4a919ce9-2229-4be0-86a1-1b28accfa52f))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "J5") (unit 1)
         )
@@ -5704,7 +5770,7 @@
     (pin "2" (uuid 5863e023-9d95-4735-83fc-1cc4611fe329))
     (pin "4" (uuid 7cdd2e84-96dc-45c1-a274-1c25adb42672))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "D5") (unit 1)
         )
@@ -5729,7 +5795,7 @@
     )
     (pin "1" (uuid e311156a-4fce-48cd-8b9a-d7e5b5ea076d))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "TP1") (unit 1)
         )
@@ -5754,7 +5820,7 @@
     )
     (pin "1" (uuid 284b6cb6-68d3-4034-ba96-1fe4227d4724))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "#PWR019") (unit 1)
         )
@@ -5780,7 +5846,7 @@
     (pin "2" (uuid ce0b21a8-e294-40c1-9793-df76553e32ac))
     (pin "1" (uuid 6db7d156-953f-47ee-afe2-5f3abed1c44f))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "BZ1") (unit 1)
         )
@@ -5806,7 +5872,7 @@
     (pin "1" (uuid efc4c6af-53a6-4ee0-8b43-c6f53b4c8dc6))
     (pin "2" (uuid f2bffd2d-5436-4474-86ef-d2d17944f9ce))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "C4") (unit 1)
         )
@@ -5831,7 +5897,7 @@
     )
     (pin "1" (uuid a369eeca-66d8-4269-aa06-6ff8f311d999))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "TP8") (unit 1)
         )
@@ -5856,7 +5922,7 @@
     )
     (pin "1" (uuid 5ff7f648-03b0-4893-9ecc-94e8ab9e8a7e))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "#PWR024") (unit 1)
         )
@@ -5915,7 +5981,7 @@
     (pin "5" (uuid 15fc0595-c823-4eac-969b-fa6729ada582))
     (pin "6" (uuid 41e09a46-0cd6-48f7-8a1d-551bbf3216af))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "U7") (unit 1)
         )
@@ -5940,7 +6006,7 @@
     )
     (pin "1" (uuid 15543fb9-9390-4b8a-9e1d-71a1382b722a))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "#PWR012") (unit 1)
         )
@@ -5966,7 +6032,7 @@
     (pin "1" (uuid 0aff2aee-7f68-4473-bc16-f6283c6ece7c))
     (pin "2" (uuid fff001e2-d549-4dca-85ce-ceecb0abc01a))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "R4") (unit 1)
         )
@@ -5994,7 +6060,7 @@
     (pin "2" (uuid 6766d018-8204-45bb-9ebf-62b206219f27))
     (pin "4" (uuid 3030f400-50e0-4fcc-a399-d2afafbb04fa))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "D16") (unit 1)
         )
@@ -6020,7 +6086,7 @@
     (pin "1" (uuid d67dbc15-f718-4cf0-b51c-3dcb3bd49b30))
     (pin "2" (uuid dd374732-2858-4f98-b537-0854d2de95a7))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "C1") (unit 1)
         )
@@ -6045,7 +6111,7 @@
     )
     (pin "1" (uuid 0981bf9c-ffbd-4a9d-b47d-f17753c33a79))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "#PWR06") (unit 1)
         )
@@ -6070,7 +6136,7 @@
     )
     (pin "1" (uuid be6ebadf-967f-40a1-9f96-de585c52aa26))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "#PWR023") (unit 1)
         )
@@ -6096,7 +6162,7 @@
     (pin "2" (uuid 037995f0-3b22-4071-bccf-2e4b986e1392))
     (pin "1" (uuid 95c8db69-0e59-4557-b1a6-f9b48dbd65c5))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "M1") (unit 1)
         )
@@ -6122,7 +6188,7 @@
     (pin "2" (uuid e8579ab7-5aa6-4957-8b55-e01f93c27263))
     (pin "1" (uuid 08f6e0d3-de1f-4f3a-a2b8-8e5acf4ee69e))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "SW3") (unit 1)
         )
@@ -6148,7 +6214,7 @@
     (pin "1" (uuid 510f3047-ebad-4aac-b42d-6ab6bf390d0a))
     (pin "2" (uuid 24ec25a6-73cd-47df-b6e8-142fcaac7018))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "C10") (unit 1)
         )
@@ -6188,7 +6254,7 @@
     (pin "1" (uuid e16e803c-9d84-4e57-a1c2-34c75999dd75))
     (pin "10" (uuid 9eb758b5-cbe1-40ad-9209-5e832c70fab8))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "U1") (unit 1)
         )
@@ -6213,7 +6279,7 @@
     )
     (pin "1" (uuid 293ea316-3a6a-442e-b00c-0f20769726c5))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "#PWR014") (unit 1)
         )
@@ -6241,7 +6307,7 @@
     (pin "2" (uuid 2847b5f9-aa15-4df0-b55f-459489b0ad74))
     (pin "4" (uuid 4e63b270-70a6-49eb-b8b7-8a73fcbb2fb0))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "D1") (unit 1)
         )
@@ -6266,7 +6332,7 @@
     )
     (pin "1" (uuid b4e4bd6f-6320-48e3-93ca-5130b09df8c9))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "TP4") (unit 1)
         )
@@ -6292,7 +6358,7 @@
     (pin "1" (uuid 7d82fa2a-d984-41c9-a152-00201c979f35))
     (pin "2" (uuid 43a5cdba-39b8-4fc1-b582-f3b6056b16f8))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "R6") (unit 1)
         )
@@ -6318,7 +6384,7 @@
     (pin "1" (uuid 261a5320-68cb-4559-bf22-eff5ba3772cd))
     (pin "2" (uuid c1a3607b-c80c-4418-9a00-2681a3ec50fa))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "C8") (unit 1)
         )
@@ -6343,7 +6409,7 @@
     )
     (pin "1" (uuid 037bb995-a010-46d2-8055-2c561401fb8c))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "#PWR08") (unit 1)
         )
@@ -6370,7 +6436,7 @@
     (pin "1" (uuid da8349e3-90aa-4473-8982-912a38e6bfa2))
     (pin "3" (uuid 9ff86219-07f6-409b-ac44-bbcb37110fef))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "J2") (unit 1)
         )
@@ -6395,7 +6461,7 @@
     )
     (pin "1" (uuid 37c9b4f1-77b9-49c7-b8f2-ec57cd851c5e))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "TP2") (unit 1)
         )
@@ -6423,7 +6489,7 @@
     (pin "2" (uuid 3ade3762-ef40-4e02-bc04-7e9f95bfaa89))
     (pin "4" (uuid b2302a0a-c2e4-4210-a673-9931a347d953))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "D7") (unit 1)
         )
@@ -6449,7 +6515,7 @@
     (pin "1" (uuid 30f01ac5-7315-46d0-9b89-824095065ae3))
     (pin "2" (uuid 2d2747b2-0baa-46d3-9432-ebd05c3e4809))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "C6") (unit 1)
         )
@@ -6493,7 +6559,7 @@
     (pin "4" (uuid 5c795f53-c2ed-44d6-a348-b9604e864070))
     (pin "16" (uuid b2cf6d5a-1516-43aa-82ad-0a9a76fb736e))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "SW5") (unit 1)
         )
@@ -6560,7 +6626,7 @@
     (pin "COLL" (uuid eec7e5eb-89e9-49b9-8fa7-33e741b7a297))
     (pin "E" (uuid 29577c4a-c52d-4fda-944c-eb0351a777ab))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "U3") (unit 1)
         )
@@ -6585,7 +6651,7 @@
     )
     (pin "1" (uuid bb515055-26df-4910-870e-6ef27f067b92))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "#PWR022") (unit 1)
         )
@@ -6613,7 +6679,7 @@
     (pin "2" (uuid ee5daa3c-06e9-4020-b88d-82d8df1358ca))
     (pin "4" (uuid 9d53a72d-17d0-4b7f-9184-0b652bb16cd9))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "D8") (unit 1)
         )
@@ -6641,7 +6707,7 @@
     (pin "2" (uuid e31eb88b-95a7-4405-b69e-27659c355eb3))
     (pin "4" (uuid 68ef26ea-8636-40d1-b053-aca9b6ce59aa))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "D14") (unit 1)
         )
@@ -6669,7 +6735,7 @@
     (pin "4" (uuid 33f2f031-d84c-4f16-b4f5-85055ea3e50f))
     (pin "3" (uuid 4fee00aa-57a0-49b1-90bd-f00cf2f998e0))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "U2") (unit 1)
         )
@@ -6694,7 +6760,7 @@
     )
     (pin "1" (uuid e92755af-d799-458f-a1e5-2e6eabc82d37))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "#PWR017") (unit 1)
         )
@@ -6726,7 +6792,7 @@
     (pin "1" (uuid 80a86e77-2dfb-46d3-abff-d0524f066f1b))
     (pin "2" (uuid 65700a51-06b5-451d-92a2-92c759c53c80))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "SW6") (unit 1)
         )
@@ -6752,7 +6818,7 @@
     (pin "1" (uuid 501ea955-464a-49b7-95c2-e7125bf8b175))
     (pin "2" (uuid a20ea27b-26dc-4dd1-a26b-654b21030468))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "R7") (unit 1)
         )
@@ -6777,7 +6843,7 @@
     )
     (pin "1" (uuid d46c1282-3415-44ed-88de-9929a91b60e1))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "#PWR021") (unit 1)
         )
@@ -6804,7 +6870,7 @@
     (pin "1" (uuid 00a30865-4d9c-4ed5-9cf7-82cefbbb9fee))
     (pin "3" (uuid c77a46d6-eddc-49a4-a8af-72ad391c3955))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "J4") (unit 1)
         )
@@ -6829,7 +6895,7 @@
     )
     (pin "1" (uuid 96a56ec9-4881-4455-94ff-d564c659a9ea))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "#PWR01") (unit 1)
         )
@@ -6855,7 +6921,7 @@
     (pin "1" (uuid c194d483-926a-41ac-99f4-3fca89c905cb))
     (pin "2" (uuid f8e09e55-0180-476b-90c9-811958c208b2))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "SW4") (unit 1)
         )
@@ -6881,7 +6947,7 @@
     (pin "1" (uuid f352ea8f-adea-4b4c-b20d-a4f7e660c271))
     (pin "2" (uuid 25ac5b90-ec88-4b23-abef-22daf0745232))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "R8") (unit 1)
         )
@@ -6909,7 +6975,7 @@
     (pin "2" (uuid 108d3c1a-6043-47a1-9177-805b590c50ca))
     (pin "4" (uuid 88c6be1f-0a9a-41c9-baa1-3455a5095847))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "D12") (unit 1)
         )
@@ -6937,7 +7003,7 @@
     (pin "2" (uuid f5c7f9c9-e9f0-43d5-87d1-7d75816c8f04))
     (pin "4" (uuid d695ce37-059c-47e2-869c-9d372bdf1472))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "D2") (unit 1)
         )
@@ -6964,7 +7030,7 @@
     (pin "2" (uuid 4a2d43cc-a04d-4fc2-bc0a-ed5fcc28a08b))
     (pin "3" (uuid a2a9ef2a-6f28-4bd3-af62-da8cf706635b))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "RV2") (unit 1)
         )
@@ -6992,7 +7058,7 @@
     (pin "2" (uuid a2c6227c-0c50-45d8-98a8-75ba75e2fbdb))
     (pin "4" (uuid 18a7ed5a-e079-4033-973c-177ef9f9c8e3))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "D10") (unit 1)
         )
@@ -7020,7 +7086,7 @@
     (pin "2" (uuid 85c36775-2bc2-4e1f-865d-bc82b02922f0))
     (pin "4" (uuid cace6b8a-1455-4861-a7a6-fff336294b3c))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "D4") (unit 1)
         )
@@ -7046,7 +7112,7 @@
     (pin "1" (uuid 1ad18882-8aa5-42e9-a9b1-927fc947e066))
     (pin "2" (uuid 6c32dea2-44c9-43d1-b1f6-a8a02d609843))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "C5") (unit 1)
         )
@@ -7071,9 +7137,35 @@
     )
     (pin "1" (uuid d81a7c2d-ee82-4582-971e-0eaa5ff47c2a))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "#PWR016") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 91.44 201.93 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid c27dd9bb-fe9c-4d3a-90d1-290eb08b47ca)
+    (property "Reference" "R12" (at 95.25 201.93 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1K" (at 97.79 199.39 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 90.424 201.676 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 91.44 201.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f9192351-e0fe-4988-b1c3-90bfb0fd7264))
+    (pin "2" (uuid 46f044af-0282-4f20-832f-71a674ad4273))
+    (instances
+      (project "NomobotSK"
+        (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -7136,7 +7228,7 @@
     (pin "P" (uuid d16922a9-66e4-428a-bb7e-af8933662fcc))
     (pin "N" (uuid 1f1aa8a5-bb4d-4f29-bb45-fde906904785))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "BT1") (unit 1)
         )
@@ -7162,7 +7254,7 @@
     (pin "1" (uuid e48c67da-6265-4229-8e01-f92db1da6372))
     (pin "2" (uuid 5f6881b0-1a91-4885-bf88-d71298772ba5))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "R3") (unit 1)
         )
@@ -7188,7 +7280,7 @@
     (pin "1" (uuid 91e9d136-8caa-47d3-9737-caac3da14b53))
     (pin "2" (uuid dca869c4-c070-42fb-8014-28fce3da228f))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "C3") (unit 1)
         )
@@ -7202,7 +7294,7 @@
     (property "Reference" "R11" (at 128.27 204.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1K" (at 130.81 207.01 0)
+    (property "Value" "330R" (at 130.81 207.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 128.524 199.644 90)
@@ -7214,7 +7306,7 @@
     (pin "1" (uuid c1dd6818-5320-44fe-a78f-f1b5c206d55d))
     (pin "2" (uuid b52c5c57-392b-4a8f-8a87-24f32a71ad84))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "R11") (unit 1)
         )
@@ -7240,7 +7332,7 @@
     (pin "1" (uuid b597b80a-696a-422b-a68e-dc1ace26c5ef))
     (pin "2" (uuid e1e84f74-9670-46b6-8d4c-0d1206e00120))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "C2") (unit 1)
         )
@@ -7265,7 +7357,7 @@
     )
     (pin "1" (uuid fe32e9cc-587f-4cce-bc5f-9cf30542311f))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "#PWR07") (unit 1)
         )
@@ -7293,7 +7385,7 @@
     (pin "2" (uuid 0aa1f857-03d8-4e02-933a-dec889b8de62))
     (pin "4" (uuid a2fe05cd-8a14-4873-942a-2d15d5358aa9))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "D6") (unit 1)
         )
@@ -7351,7 +7443,7 @@
     (pin "4" (uuid 2cdca2bf-4619-4b83-bad2-961fba3f16f1))
     (pin "1" (uuid 3e5ff80f-4fb8-440f-89f6-22ef35775da8))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "U5") (unit 1)
         )
@@ -7376,7 +7468,7 @@
     )
     (pin "1" (uuid dee2fbc3-71a4-4f6a-b718-f3e0280b9f88))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "#PWR018") (unit 1)
         )
@@ -7401,7 +7493,7 @@
     )
     (pin "1" (uuid 9bfd5841-696d-46bf-bfe8-59e535141f03))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "#PWR020") (unit 1)
         )
@@ -7426,7 +7518,7 @@
     )
     (pin "1" (uuid 83765d8e-c386-4b8c-b629-81ab39ea3682))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "#PWR026") (unit 1)
         )
@@ -7516,7 +7608,7 @@
     (pin "J1_1" (uuid 93a12d3c-b921-4953-82b9-361579eef406))
     (pin "J1_13" (uuid c6a2c964-2495-48aa-9810-4183b9add96b))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "A1") (unit 2)
         )
@@ -7544,7 +7636,7 @@
     (pin "2" (uuid 51df1e27-8f9b-4499-9acc-2a45c4ab14a1))
     (pin "4" (uuid 49df1c7d-8902-447c-a7d4-02aeebd241ae))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "D3") (unit 1)
         )
@@ -7569,7 +7661,7 @@
     )
     (pin "1" (uuid ca8095b1-240d-49a3-b27a-ccdc438e79fe))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "#PWR09") (unit 1)
         )
@@ -7594,7 +7686,7 @@
     )
     (pin "1" (uuid 9f7e781a-8ed9-4a91-9fdf-9560d12cf7e5))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "#PWR025") (unit 1)
         )
@@ -7622,7 +7714,7 @@
     (pin "2" (uuid 5d8a05c9-2250-4e32-85a3-cdbe8e0a3b78))
     (pin "4" (uuid 83212a32-2127-4445-a456-8f3b34b3e811))
     (instances
-      (project "RobotLED"
+      (project "NomobotSK"
         (path "/2a2d4bca-5d6a-47b5-b639-a460d9342f50"
           (reference "D15") (unit 1)
         )
