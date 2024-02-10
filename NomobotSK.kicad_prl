@@ -1,10 +1,26 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "All Layers",
+    "active_layer_preset": "",
     "auto_track_width": true,
-    "hidden_netclasses": [],
-    "hidden_nets": [],
+    "hidden_netclasses": [
+      "PowerHigh"
+    ],
+    "hidden_nets": [
+      "GND",
+      "M2N",
+      "M2P",
+      "M1N",
+      "M1P",
+      "Net-(Q5-S1)",
+      "Net-(Q5-S2)",
+      "/POWER/BAT-",
+      "/POWER/BAT_MID",
+      "/POWER/BAT+",
+      "/POWER/VBAT",
+      "/POWER/9V",
+      "Net-(Q7-E)"
+    ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
@@ -21,7 +37,7 @@
       "keepouts": true,
       "lockedItems": false,
       "otherItems": true,
-      "pads": true,
+      "pads": false,
       "text": true,
       "tracks": true,
       "vias": true,
@@ -61,7 +77,6 @@
       34,
       35,
       36,
-      39,
       40
     ],
     "visible_layers": "fffffff_ffffffff",
